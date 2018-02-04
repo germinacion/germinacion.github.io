@@ -1,7 +1,6 @@
 ---
 layout: app
 ---
-
 <div class="guide">
 	<h1 style="text-align: center;">Guía de plantas</h1>
 	<div class="ui items">
@@ -21,3 +20,20 @@ layout: app
 	</div>
 </div>
 
+<script>
+
+		// add "is-offline" class to the html element if user is offline and remove when online again
+		window.addEventListener('load', function() {
+			function updateOnlineStatus(event) {
+				if (navigator.onLine) {
+					document.documentElement.classList.remove('is-offline');
+					
+				} else {
+					document.documentElement.classList.add('is-offline');
+					
+				}
+			}
+			window.addEventListener('online',  updateOnlineStatus);
+			window.addEventListener('offline', updateOnlineStatus);
+		});
+	</script>
