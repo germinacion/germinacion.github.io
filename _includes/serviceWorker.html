@@ -8,14 +8,6 @@ function showOfflineToast() {
   }, 5500);
 }
 
-function hideOfflineSearch() {
-  let offlineSearch = document.querySelector('.offline-search');
-  offlineSearch.classList.add('active');
-  setTimeout(function(){ 
-    offlineSearch.className = offlineSearch.className.replace("active", "").trim();
-  }, 5005500);
-}
-
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register('/sw.js').then(function(reg) {
       if (!reg.installing) return;

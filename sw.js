@@ -28,6 +28,9 @@ const filesToCache = [
   "/img/sauce.jpg",
   "/img/tomillo.jpg",
   "/img/logo-germinacion.svg",
+  "/js/lunr.min.js",
+  "/js/lunr.unicodeNormalizer.js",
+  "/js/search.js",
   "/style.css",
   "/index.html"
 ];
