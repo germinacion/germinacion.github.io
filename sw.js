@@ -29,7 +29,6 @@ const filesToCache = [
   "/img/tomillo.jpg",
   "/img/logo-germinacion.svg",
   "/style.css",
-  "/buscar?query=",
   "/index.html"
 ];
 

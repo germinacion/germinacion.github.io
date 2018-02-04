@@ -3,7 +3,7 @@ layout: search
 ---
 {% include nav.html %}
 <div class="main-container">
-<div class="search-form mono-space">
+<div class="search-form mono-space offline-ready">
 <label>Buscar por nombre, uso, afección</label>
   <form action="/buscar" method="get">
 	    <input type="text" id="search-box" class="search-box" name="query">
@@ -41,4 +41,5 @@ layout: search
 <script src="{{ site.baseurl }}/js/lunr.min.js"></script>
 <script src="{{ site.baseurl }}/js/lunr.unicodeNormalizer.js"></script>
 <script src="{{ site.baseurl }}/js/search.js"></script>
+
 
