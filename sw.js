@@ -11,7 +11,7 @@ const filesToCache = [
   {% for page in site.html_pages %}
     '{{ page.url }}',
   {% endfor %}
-  {% for collections in site.plantas %}
+  {% for plantas in site.plantas %}
     '{{ plantas.url }}',
   {% endfor %}
   "/img/back-home.jpg",
