@@ -281,6 +281,10 @@ footer {
 	-moz-transition: all 0.88s cubic-bezier(0.7, 0, 0.3, 1);
 	transition: all 0.88s cubic-bezier(0.7, 0, 0.3, 1);
 
+	&.active {
+		display: none !important; 
+	}
+
 	@include media($mobile) {
 		padding: 30px 1em;
 	}
