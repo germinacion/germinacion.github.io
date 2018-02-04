@@ -1,0 +1,23 @@
+---
+layout: app
+---
+
+<div class="guide">
+	<h1 style="text-align: center;">Guía de plantas</h1>
+	<div class="ui items">
+	{% for plantas in site.plantas %}
+		  <div class="item animated fadeInUp">
+		    <a class="image" href="{{ site.baseurl }}{{ plantas.url }}">
+		      <img src="{{ site.baseurl }}/img/{{ plantas.img }}.jpg" alt="{{ plantas.title }}">
+		    </a>
+		    <div class="content">
+		      <a class="header" href="{{ site.baseurl }}{{ plantas.url }}">{{ plantas.title }} <br> <i>{{plantas.nombre-cientifico}}</i></a>
+		      <div class="description">
+		        <p>{{plantas.meta}}</p>
+		      </div>
+		    </div>
+		  </div>
+	{% endfor %}
+	</div>
+</div>
+

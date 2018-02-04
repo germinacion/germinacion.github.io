@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% include nav.html %}
+<div class="main-container">
+	<b style="
+    position: absolute;
+    right: 15px;
+    top: 80px;
+    color: #999;
+    text-transform: uppercase;
+">ctrl-f para buscar dentro de la planta</b>
+	<div class="post">
+	<img src="{{ site.baseurl }}/img/{{ page.img }}.jpg" alt="{{ page.title }}" width="100%">
+	<h1>{{page.title}}</h1>
+	<i>{{page.nombre-cientifico}}</i> <br>
+	<div>{{page.meta}}</div> <br>
+	<p>{{content}}</p>
+	</div>
+</div>
+{% include footer.html %}
