@@ -366,8 +366,18 @@ footer {
 	color: #999;
 }
 
+.tag-search {
+	opacity: 0;
+}
+
 .is-offline {
-	.search-form {
-		display: none
+	.form-search {
+		opacity: 0;
+		cursor: default;
+		pointer-events: none;
+	}
+
+	.tag-search {
+		opacity: 1;
 	}
 }
