@@ -31,7 +31,6 @@ const filesToCache = [
   "/js/lunr.min.js",
   "/js/lunr.unicodeNormalizer.js",
   "/js/search.js",
-  "/buscar/?query=resfrio",
   "/style.css",
   "/index.html"
 ];
