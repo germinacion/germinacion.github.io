@@ -5,6 +5,7 @@ img: calendula
 permalink: /calendula/
 meta: Planta originaria de Egipto, su nombre deriva de “mes” igual que “calendario”, debido a su larga floración.
 category: respiratorio
+tags: [heridas, eccemas, quemaduras]
 type: tos con catarro
 nombre-cientifico: Calendula officinalis
 otros-nombres: otros nombres

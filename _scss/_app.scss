@@ -313,7 +313,7 @@ footer {
 		flex: 1;
 		border: none;
 		padding: 10px 10px 10px 20px;
-		border-bottom: 1px solid #ddd;
+		//border-bottom: 1px solid #ddd;
 		font-size: 20px;
 
     	@include media($mobile) {
@@ -364,4 +364,25 @@ footer {
 	text-align: center;
 	font-size: 25px;
 	color: #999;
+}
+
+
+.network-status {
+	.search-box {
+
+	}
+
+	.tag-box {
+		display: none;
+	}
+
+	&.warning {
+		.search-box {
+		display: none;
+		}
+
+		.tag-box {
+			display: block;
+		}
+	}
 }

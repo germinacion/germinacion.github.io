@@ -4,12 +4,17 @@ layout: default
 
 {% include nav.html %}
 <div class="main-container">
-	<div class="search-form mono-space connection-status">
-	    <label>Buscar por nombre, uso, afección</label>
-	  <form class="form-search" action="/buscar" method="get">
-	    <input type="text" id="search-box" class="search-box" name="query">
-	    <input class="ui button green search-action" type="submit" value="Buscar">
-	  </form>
+	<div class="search-form mono-space network-status">
+	    <div class="search-box">
+    	    <label>Buscar por nombre, uso, afección</label>
+    	  	<form class="form-search" action="/buscar" method="get">
+    		    <input type="text" id="search-box" class="search-box" name="query">
+    		    <input class="ui button green search-action" type="submit" value="Buscar">
+    	  	</form>
+	    </div>
+	    <div class="tag-box">
+	    	<a href="/buscar/?query=resfrio">Resfrio</a>
+	    </div>
 	</div>
 	
 	{{content}}
