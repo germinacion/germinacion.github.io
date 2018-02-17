@@ -1,5 +1,5 @@
 {
-    "name": "Germinacion",
+    "name": "Germinación",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -12,7 +12,8 @@
             "type": "image/png"
         }
     ],
-    "theme_color": "#25a55f",
-    "background_color": "#25a55f",
+    "theme_color": "#fff",
+    "orientation": "portrait",
+    "background_color": "#215639",
     "display": "fullscreen"
 }
