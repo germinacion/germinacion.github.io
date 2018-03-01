@@ -2,7 +2,7 @@
 layout: null
 ---
 
-const staticCacheName = "germinacion-static-v2";
+const staticCacheName = "germinacion-static-v3";
 
 console.log("installing service worker");
 
@@ -11,8 +11,8 @@ const filesToCache = [
   {% for page in site.html_pages %}
     '{{ page.url }}',
   {% endfor %}
-  {% for plantas in site.plantas %}
-    '{{ plantas.url }}',
+  {% for post in site.posts %}
+    '{{ post.url }}',
   {% endfor %}
   "/img/back-home.jpg",
   "/img/back-search.jpg",
