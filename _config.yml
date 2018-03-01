@@ -15,10 +15,4 @@ permalink: pretty
 sass:
   sass_dir: _scss
 
-host: 192.168.0.105
-
-
-
-collections:
-  plantas:
-    output: true
+host: 192.168.0.102
