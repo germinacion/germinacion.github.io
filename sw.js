@@ -2,7 +2,7 @@
 layout: null
 ---
 
-const staticCacheName = "germinacion-static-v4";
+const staticCacheName = "germinacion-static-v5";
 
 console.log("installing service worker");
 
@@ -27,6 +27,7 @@ const filesToCache = [
   "/img/salvia.jpg",
   "/img/sauce.jpg",
   "/img/tomillo.jpg",
+  "/js/jquery.min.js",
   "/img/logo-germinacion.svg",
   "/style.css",
   "/index.html"
