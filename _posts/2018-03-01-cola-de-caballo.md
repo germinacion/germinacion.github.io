@@ -4,6 +4,7 @@ title: Cola de caballo
 img: cola-de-caballo
 permalink: /cola-de-caballo/
 meta: Familia de las Equisetáceas (29 especies), hay fósiles de 30 m de alto. Son reliquias botánicas, no tienen flores ni semillas sino esporos. Tiene rizomas y tallos articulados. Brotes fértiles e infértiles.
+tags: [antianemicas, antidiarreica, antihemorragicas, depurativas - diureticas]
 category: respiratorio
 type: tos con catarro
 nombre-cientifico: Equisetum giganteum

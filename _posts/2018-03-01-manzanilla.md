@@ -4,6 +4,7 @@ title: Manzanilla
 img: manzanilla
 permalink: /manzanilla/
 meta: Familia de las Asteráceas (ex Compuestas) Hierba anual con hojas finamente divididas, flores del margen blancas liguladas y centrales amarillas huecas, muy perfumadas. Considerada “cálida”. Originaria de Europa.
+tags: [protector gastrico, antialergicas, antiespasmodica, antiflatulentas, antiinflamatorias, protectores gastricos]
 category: respiratorio
 type: tos con catarro
 nombre-cientifico: Chamomilla recutita

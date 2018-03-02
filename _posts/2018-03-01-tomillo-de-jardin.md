@@ -6,6 +6,7 @@ permalink: /tomillo-de-jardin/
 meta: Subarbusto perenne aromático de hasta 40 cm de alto, con tallos leñosos algo retorcidos, hojitas verdegrisáceas, opuestas, pequeñas, flores lila pálido pequeñas, en inflorescencias terminales. De origen mediterráneo, crece hasta los 2500 m.s.n.m.
 category: respiratorio
 type: tos con catarro
+tags: [tonicas, antibiotica - antibacteriana, antiespasmodicas, antiflatulentas, antimicotica, antiparasitaria, antitusivas, expectorante, hepatobiliares, inmunoestimulantes]
 nombre-cientifico: Thymus vulgaris L.
 otros-nombres: otros nombres
 parte-usada: parte usada

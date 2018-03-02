@@ -4,8 +4,8 @@ title: Caléndula
 img: calendula
 permalink: /calendula/
 meta: Planta originaria de Egipto, su nombre deriva de “mes” igual que “calendario”, debido a su larga floración.
-category: respiratorio
-tags: [heridas, eccemas, quemaduras]
+category: [respiratorio]
+tags: [antialergicas, antibiotica - antibacteriana, antiespasmodica, antiflatulentas, antiinflamatorias antiparasitaria, depurativas - diureticas, hepatobiliares, protectores gastricos]
 type: tos con catarro
 nombre-cientifico: Calendula officinalis
 otros-nombres: otros nombres

@@ -22,6 +22,7 @@
 	<meta content="https://germinacion.github.io/" property="og:url">
 	<meta content="https://germinacion.github.io/img/germinacion.png" property="og:image">
 
+
 	<script>
 		function showStatus(online) {
 		  const statusEl = document.querySelector('.network-status');
@@ -63,7 +64,7 @@
 	<!-- Contains the above code in a script tag-->
 	{% include serviceWorker.html %} 
 
-	<div class="offline-ready">Ya podes usarnos sin internet</div>
+	<div class="offline-ready" style="display: none">Ya podes usarnos sin internet</div>
 
 
 </html>

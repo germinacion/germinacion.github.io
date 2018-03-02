@@ -13,6 +13,17 @@ layout: default
 ">ctrl-f para buscar dentro de la planta</b>
 	<div class="post">
 	<img src="{{ site.baseurl }}/img/{{ page.img }}.jpg" alt="{{ page.title }}" width="100%">
+	<div class="post-categories">
+	  {% if post %}
+	    {% assign categories = post.categories %}
+	  {% else %}
+	    {% assign categories = page.categories %}
+	  {% endif %}
+	  {% for category in categories %}
+	  <a href="{{site.baseurl}}/afecciones-comunes/#{{category|slugize}}">{{category}}</a>
+	  {% unless forloop.last %}&nbsp;{% endunless %}
+	  {% endfor %}
+	</div>
 	<h1>{{page.title}}</h1>
 	<i>{{page.nombre-cientifico}}</i> <br>
 	<div>{{page.meta}}</div> <br>
