@@ -19,46 +19,36 @@ permalink: /virtudes/
 
 	<div class="search-form mono-space offline-ready">
 		<h1 style="color: #fff; text-align: center;">Guia de plantas según sus virtudes</h1>
-	 <div class="tag-cloud" style="max-width: 900px; margin: 0 auto; text-align: center;">
-  {% for category in site.tags %}
-     {% capture category_name %}{{ category | first }}{% endcapture %}
-     <a class="ui label large teal" href="#{{ category_name | slugify  }}" name="{{ category_name | slugize }}" style="
-     text-transform: lowercase;
-     font-family: 'Alegreya SC', serif;
-     position: relative;
-     margin: 5px;
-     font-size: 15px;
-     letter-spacing: 1px;
-     font-weight: 600;
-">
-      <i class="fa fa-tag" style="
-   
-    margin-right: 7px;
-    position: relative;
-    top: 2px;
-
-"></i>{{ category_name }}
-    </a>
-  {% endfor %}
-  </div>
+	 
   </div>
 
-  
+     <div class="tag-cloud" style="max-width: 900px; margin: 0 auto; text-align: center;">
+    {% for category in site.tags %}
+       {% capture category_name %}{{ category | first }}{% endcapture %}
+       <a class="ui label big orange" href="#{{ category_name | slugify  }}" name="{{ category_name | slugize }}" style="
+       text-transform: capitalize; margin: 5px 3px ;
+  ">
+  {{ category_name }}
+      </a>
+    {% endfor %}
+    </div>
 
   <div id="archive" class="archive guide" style="">
   	<div class="items" style="">
-      {% for category in site.tags | sort: 'tags' %}
+      {% for category in site.tags %}
           <div class="archive-group animated fadeInUp" style="">
              {% capture category_name %}{{ category | first }}{% endcapture %}
              <div id="{{ category_name | slugify }}"></div>
              <h3 class="category-head" style="">{{ category_name }}</h3>
              <a name="{{ category_name | slugize }}"></a>
              {% for post in site.tags[category_name] %}
-                <article class="archive-item">
-                 <h4 style="">
-                  <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
-                  </h4>
-                </article>
+                <div class="archive-item">
+                  <a href="{{ site.baseurl }}{{ post.url }}">
+                    <small>{{post.title}}</small> 
+                  </a>
+                  <i>{{post.nombre-cientifico}}</i>
+                  
+                </div>
              {% endfor %}
           </div>
       {% endfor %}
