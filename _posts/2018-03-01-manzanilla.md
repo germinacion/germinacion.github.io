@@ -13,9 +13,9 @@ parte-usada: parte usada
 cuidados-especiales: cuidados especiales
 ---
 
-<b>Parte usada: Flor sin cabito, cosechada madura, bien abierta, en día seco, Al mediodía. Secar a la sombra y guardar en papel o tela.</b>
+<b id="parte-usada">Parte usada: Flor sin cabito, cosechada madura, bien abierta, en día seco, Al mediodía. Secar a la sombra y guardar en papel o tela.</b>
 
-<h3>Para qué problema se usa</h3>
+<h3 id="planta-usos">Para qué problema se usa</h3>
 <h4>Uso externo</h4>
 <ul>
 <li>Heridas, eczemas, forúnculos, quemaduras</li>
@@ -49,7 +49,7 @@ cuidados-especiales: cuidados especiales
 <li>Diarrea (en Cuba)</li>
 </ul>
 
-<h3>Preparación y modo de uso</h3>
+<h3 id="preparacion">Preparación y modo de uso</h3>
 
 <h4>Uso externo</h4>
 <ul>
@@ -68,7 +68,7 @@ cuidados-especiales: cuidados especiales
 </ul>
 
 
-<h3>Otros usos</h3>
+<h3 id="otros-usos">Otros usos</h3>
 <ul>
 <li>Condimento de tortas, saborizante de productos alimenticios y golosinas</li>
 <li>Cosmético</li>
@@ -77,7 +77,7 @@ cuidados-especiales: cuidados especiales
 <li>Saborizante de vermouth</li>
 </ul>
 
-<h4>Cuidados especiales</h4>
+<h4 id="cuidados-especiales">Cuidados especiales</h4>
 <ul>
 <li>El polen puede ser alergénico</li>
 <li>Interactúa con anticoagulantes</li>

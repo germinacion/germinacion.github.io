@@ -205,9 +205,9 @@ footer {
 }
 
 .post {
-	max-width: 600px;
+	max-width: 900px;
 	margin: 0 auto;
-	padding: 2em 0;
+	padding: 2em 250px 2em 0;
 	font-size: 20px;
 	line-height: 30px;
 
@@ -216,11 +216,41 @@ footer {
 	    padding: 2em 1em;
 	}
 
+	h1 {
+		font-size: 35px;
+	}
+
+	h1 i {
+		font-size: 25px;
+		color: #999;
+	}
+
 	h3, h4 {
-		border-bottom: 1px solid #1a7a43;
+		
 		color: #1a7a43;
 		font-family: 'Alegreya SC', serif;
+		text-align: left;
+		text-transform: lowercase;
+	}
 
+	h3 {
+		font-size: 25px;
+	}
+
+	h4 {
+		font-size: 20px;
+		border-bottom: 1px solid #1a7a43;
+	}
+
+	#parte-usada {
+		display: block;
+		/* text-align: center; */
+		min-height: 120px;
+		background: #f9f9f9;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 70px;
 	}
 
 
@@ -459,6 +489,37 @@ footer {
 	//.archive-group:nth-child(34) { animation-delay: 1.75s; -webkit-animation-delay: 1.75s;  }
 }
 
+.indice {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    right: 15px;
+    top: 120px;
+    text-align: right;
+
+    a {
+    	color: #333;
+    	margin: 0;
+    	font-size: 17px;
+    	font-weight: 600;
+
+    	&:focus {
+    		color: #1a7a43;	
+    	}
+
+    	&:hover {
+    		color: #1a7a43;	
+    	}
+    }
+
+	@include media($ipad) {
+		position: relative;
+		top: 0;
+		text-align: center;
+		font-weight: 600;
+		left: 0;
+	}
+}
 
 .network-status {
 	.search-box {

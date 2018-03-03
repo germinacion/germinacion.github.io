@@ -13,9 +13,9 @@ parte-usada: parte usada
 cuidados-especiales: cuidados especiales
 ---
 
-<b>Parte usada: Flor (pétalos)</b>
+<b id="parte-usada">Parte usada: Flor (pétalos)</b>
 
-<h3>Para qué problema se usa</h3>
+<h3 id="planta-usos">Para qué problema se usa</h3>
 <h4>Uso externo</h4>
 <ul>
 <li>Heridas</li>
@@ -52,7 +52,7 @@ cuidados-especiales: cuidados especiales
 </ol>
 
 
-<h3>Preparación y modo de uso</h3>
+<h3 id="preparacion">Preparación y modo de uso</h3>
 
 <h4>Uso externo</h4>
 <ol>
@@ -70,7 +70,7 @@ cuidados-especiales: cuidados especiales
 <li>Tintura de pétalos</li>
 </ul>
 
-<h3>Otros usos</h3>
+<h3 id="otros-usos">Otros usos</h3>
 <ul>
 <li>Insecticida natural</li>
 <li>Azafrán trucho (los pétalos secos)</li>
@@ -88,7 +88,7 @@ Cremas cosméticas para las arrugas, esencias de “hierbas silvestres” para p
 <li>Enjuague de cabello para aclararlo.</li>
 </ul>
 
-<h4>Cuidados especiales</h4>
+<h4 id="cuidados-especiales">Cuidados especiales</h4>
 <p>
 Abortiva (no usar durante el embarazo).
 </p>

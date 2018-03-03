@@ -13,9 +13,9 @@ parte-usada: parte usada
 cuidados-especiales: cuidados especiales
 ---
 
-<b>Parte usada: Flores, hojas, tallos</b>
+<b id="parte-usada">Parte usada: Flores, hojas, tallos</b>
 
-<h3>Para qué problema se usa</h3>
+<h3 id="planta-usos">Para qué problema se usa</h3>
 <h4>Uso externo</h4>
 <ul>
 <li>Descongestivo en fomentos</li>
@@ -35,7 +35,7 @@ cuidados-especiales: cuidados especiales
 <li>Calorífico (en enfriamientos)</li>
 </ul>
 
-<h3>Preparación y modo de uso</h3>
+<h3 id="preparacion">Preparación y modo de uso</h3>
 
 <h4>Uso externo</h4>
 <ul>
@@ -55,7 +55,7 @@ cuidados-especiales: cuidados especiales
 <li>Se aderezan las comidas (sopas, tucos, salsas) para reforzar la autoinmunidad, como preventivo general.</li>
 </ul>
 
-<h3>Otros usos</h3>
+<h3 id="otros-usos">Otros usos</h3>
 <ul>
 <li>Condimento (carnes, pescados, salsas, hongos, ensaladas, quesos, sales aromatizadas, etc.)</li>
 <li>Cosmético, dentífrico, jabón, sales y espumas de baño</li>
@@ -63,7 +63,7 @@ cuidados-especiales: cuidados especiales
 <li>Sahumar en incienso para ahuyentar mosquitos Licores Con su aceite los egipcios embalsamaban sus momias En la Edad Media se usaba para expulsar la placenta y los fetos muertos.</li>
 </ul>
 
-<h4>Cuidados especiales</h4>
+<h4 id="cuidados-especiales">Cuidados especiales</h4>
 <ul>
 <li>Secar rápido sin apelmazar a la sombra y en lugar ventilado</li>
 <li>No abusar los hipertiroideos (puede desencadenar su aceite esencial crisis tiroidea) Estimulante uterino: usar la planta con moderación El aceite esencial es tóxico hepático, renal y del SNC, por eso no usar los aceites esenciales, sino la planta fresca o seca. Figura en la Farmacopea argentina, y de muchos otros países</li>

@@ -14,9 +14,9 @@ cuidados-especiales: cuidados especiales
 ---
 
 
-<b>Parte usada: Partes aéres infértiles, sin manchas pardas (hongos), se secan rápidamente para que queden de color verde.</b>
+<b id="parte-usada">Parte usada: Partes aéres infértiles, sin manchas pardas (hongos), se secan rápidamente para que queden de color verde.</b>
 
-<h3>Para qué problema se usa</h3>
+<h3 id="planta-usos">Para qué problema se usa</h3>
 <h4>Uso externo</h4>
 <ul>
 <li>Heridas, abscesos, orzuelos, eczemas (ciactrizante, vasoconstrictor local, astringente, hemostática)</li>
@@ -41,7 +41,7 @@ cuidados-especiales: cuidados especiales
 <li>reduce excesiva transpiración</li>
 </ul>
 
-<h3>Preparación y modo de uso</h3>
+<h3 id="preparacion">Preparación y modo de uso</h3>
 
 <h4>Uso externo</h4>
 <ul>
@@ -56,7 +56,7 @@ cuidados-especiales: cuidados especiales
 <li>En el mate</li>
 </ul>
 
-<h3>Otros usos</h3>
+<h3 id="otros-usos">Otros usos</h3>
 <ul>
 <li>Abrasivo, pule metales y madera</li>
 <li>Preparación de cosméticos, para fortalecer las uñas</li>
@@ -64,7 +64,7 @@ cuidados-especiales: cuidados especiales
 <li>Los retoños fértiles parecen espárragos, se pueden comer sacandoles los brotes superiores.</li>
 </ul>
 
-<h4>Cuidados especiales</h4>
+<h4 id="cuidados-especiales">Cuidados especiales</h4>
 <ul>
 <li>Contiene equisetina, tóxica para el ganado (sobre todo vacunos)</li>
 <li>Niños no deben chupar el tallo hueco, es tóxico</li>

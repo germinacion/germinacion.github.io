@@ -2,33 +2,31 @@
 layout: default
 ---
 
-{% include nav.html %}
-<div class="main-container">
-	<b style="
-    position: absolute;
-    right: 15px;
-    top: 80px;
-    color: #999;
-    text-transform: uppercase;
-">ctrl-f para buscar dentro de la planta</b>
+<header style="position: relative;">
+	<a href="{{ site.baseurl }}/" class="logo">
+		<img src="{{ site.baseurl }}/img/logo-germinacion.svg" width="40px">
+		<small>Germinación del camino</small>
+	</a>
+	<nav class="primary-menu">
+		<a href="{{ site.baseurl }}/guia-de-plantas/" class="{% if page.url == 'guia-de-plantas'%} active {% endif %}">guía de plantas</a>
+		<a href="{{ site.baseurl }}/virtudes/" class="{% if page.url == 'virtudes'%} active {% endif %}">por virtudes</a>
+		<a href="{{ site.baseurl }}/quienes-somos/" class="{% if page.url == 'quienes-somos'%} active {% endif %}">quienes somos</a>
+	</nav>
+</header>
+<div class="main-container" style="padding-top: 0;">
 	<div class="post">
 	<img src="{{ site.baseurl }}/img/{{ page.img }}.jpg" alt="{{ page.title }}" width="100%">
-	<div class="post-categories">
-	  {% if post %}
-	    {% assign categories = post.categories %}
-	  {% else %}
-	    {% assign categories = page.categories %}
-	  {% endif %}
-	  {% for category in categories %}
-	  <a href="{{site.baseurl}}/afecciones-comunes/#{{category|slugize}}">{{category}}</a>
-	  {% unless forloop.last %}&nbsp;{% endunless %}
-	  {% endfor %}
+	<div class="indice">
+		<h2>Indice</h2>
+		<a href="#parte-usada">Parte usada</a>
+		<a href="#planta-usos">Para qué problema se usa</a>
+		<a href="#preparacion">Preparacion</a>
+		<a href="#otros-usos">Otros usos</a>
+		<a href="#cuidados-especiales">Cuidados especiales</a>
 	</div>
-	<h1>{{page.title}}</h1>
-	<i>{{page.nombre-cientifico}}</i> <br>
+	<h1>{{page.title}} <i>({{page.nombre-cientifico}})</i></h1>
 	<div>{{page.meta}}</div> <br>
 	<p>{{content}}</p>
 	</div>
-	
 </div>
 {% include footer.html %}
