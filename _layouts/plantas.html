@@ -55,7 +55,7 @@ layout: default
 		    {% assign categories = page.tags %}
 		  {% endif %}
 		  {% for category in categories %}
-		  	<small class="ui label large" >{{category}}</small>{% unless forloop.last %}&nbsp;{% endunless %}
+		  	<small class="ui label large" style="margin: 5px;" >{{category}}</small>{% unless forloop.last %}&nbsp;{% endunless %}
 		  {% endfor %}
 		</div>
 
@@ -76,7 +76,7 @@ layout: default
 	      {% if post.url != page.url %}
 	        {% if page.tags contains tag %}
 	          {% assign sameTagCount = sameTagCount | plus: 1 %}
-	          {% capture tagmarkup %} <small class="ui label large">{{ tag }}</small> {% endcapture %}
+	          {% capture tagmarkup %} <small class="ui label large" style="margin: 5px;">{{ tag }}</small> {% endcapture %}
 	          {% assign commonTags = commonTags | append: tagmarkup %}
 	        {% endif %}
 	      {% endif %}

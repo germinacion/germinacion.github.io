@@ -9,8 +9,8 @@
       var item = store[results[i].ref];
       appendString += '<li style="width: 100%;" class="item">';
       appendString += '<div class="image"><a href="' + item.url + '"><img src="/img/' + item.img + '.jpg"></a></div>';
-      appendString += '<div class="content"><a href="' + item.url + '"><h3 class=" header">' + item.title + '</h3></a>';
-      appendString += '<p class="description">' + item.meta + '</p>';
+      appendString += '<div class="content"><a href="' + item.url + '"><h3 class=" header" style="font-size: 22px;">' + item.title + '</h3></a>';
+      appendString += '<p class="description" style="font-size: 19px;">' + item.meta + '</p>';
     }
 
       searchResults.innerHTML = appendString;

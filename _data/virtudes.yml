@@ -1,0 +1,373 @@
+---
+-
+    virtudes: ACCION ENDOCRINA
+    calendula: false
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: false
+    salvia: true
+    sauce: false
+    tomillo-de-jardin: false
+-
+    virtudes: ANALGESICA
+    calendula: false
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: true
+    salvia: false
+    sauce: true
+    tomillo-de-jardin: false
+-
+    virtudes: ANTIALERGICAS
+    calendula: true
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: true
+    menta: false
+    oregano: false
+    romero: false
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: false
+-
+    virtudes: ANTIANEMICAS
+    calendula: false
+    cola-de-caballo: true
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: false
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: false
+-
+    virtudes: ANTIBIOTICA - ANTIBACTERIANA
+    calendula: true
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: true
+    romero: false
+    salvia: true
+    sauce: false
+    tomillo-de-jardin: true
+-
+    virtudes: ANTIBIOTICA - ANTIPARASITARIA
+    calendula: true
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: false
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: false
+-
+    virtudes: ANTICOAGULANTE
+    calendula: false
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: false
+    salvia: false
+    sauce: true
+    tomillo-de-jardin: false
+-
+    virtudes: ANTIDEPRESIVA
+    calendula: false
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: true
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: false
+-
+    virtudes: ANTIDIARREICA
+    calendula: false
+    cola-de-caballo: true
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: false
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: false
+-
+    virtudes: ANTIEMETICAS
+    calendula: false
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: true
+    oregano: false
+    romero: false
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: false
+-
+    virtudes: ANTIESPASMODICAS
+    calendula: true
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: true
+    menta: false
+    oregano: true
+    romero: true
+    salvia: true
+    sauce: false
+    tomillo-de-jardin: true
+-
+    virtudes: ANTIFLATULENTAS
+    calendula: true
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: true
+    menta: true
+    oregano: false
+    romero: false
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: true
+-
+    virtudes: ANTIHEMORRAGICAS
+    calendula: false
+    cola-de-caballo: true
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: false
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: false
+-
+    virtudes: ANTIINFLAMATORIAS
+    calendula: true
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: true
+    menta: false
+    oregano: false
+    romero: false
+    salvia: false
+    sauce: true
+    tomillo-de-jardin: false
+-
+    virtudes: ANTIMICOTICA
+    calendula: false
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: false
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: true
+-
+    virtudes: ANTIPARASITARIA
+    calendula: false
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: true
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: true
+-
+    virtudes: ANTITRASPIRANTE
+    calendula: false
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: false
+    salvia: true
+    sauce: false
+    tomillo-de-jardin: false
+-
+    virtudes: ANTITUSIVAS
+    calendula: false
+    cola-de-caballo: false
+    lavanda: true
+    manzanilla: false
+    menta: false
+    oregano: true
+    romero: false
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: true
+-
+    virtudes: ANTIVIRALES
+    calendula: false
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: false
+    salvia: true
+    sauce: false
+    tomillo-de-jardin: false
+-
+    virtudes: DEPURATIVAS - DIURETICAS
+    calendula: true
+    cola-de-caballo: true
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: true
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: false
+-
+    virtudes: EMENAGOGAS
+    calendula: false
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: true
+    romero: true
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: false
+-
+    virtudes: EXPECTORANTE
+    calendula: false
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: true
+    oregano: true
+    romero: true
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: true
+-
+    virtudes: FEBRIFUGA
+    calendula: false
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: false
+    salvia: false
+    sauce: true
+    tomillo-de-jardin: false
+-
+    virtudes: HALITOSIS
+    calendula: false
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: true
+    oregano: false
+    romero: false
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: false
+-
+    virtudes: HEPATOBILIARES
+    calendula: true
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: true
+    oregano: false
+    romero: true
+    salvia: true
+    sauce: false
+    tomillo-de-jardin: true
+-
+    virtudes: HIPERTENSORAS
+    calendula: false
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: true
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: false
+-
+    virtudes: HIPOGLUCEMIANTES
+    calendula: false
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: false
+    salvia: true
+    sauce: false
+    tomillo-de-jardin: false
+-
+    virtudes: INMUNOESTIMULANTES
+    calendula: false
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: false
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: true
+-
+    virtudes: PROTECTOR GASTRICO
+    calendula: true
+    cola-de-caballo: false
+    lavanda: false
+    manzanilla: true
+    menta: false
+    oregano: false
+    romero: false
+    salvia: false
+    sauce: false
+    tomillo-de-jardin: false
+-
+    virtudes: TONICAS
+    calendula: false
+    cola-de-caballo: false
+    lavanda: true
+    manzanilla: false
+    menta: true
+    oregano: false
+    romero: true
+    salvia: true
+    sauce: true
+    tomillo-de-jardin: true
+-
+    virtudes: TRANQUILIZANTES
+    calendula: false
+    cola-de-caballo: false
+    lavanda: true
+    manzanilla: false
+    menta: false
+    oregano: false
+    romero: false
+    salvia: true
+    sauce: false
+    tomillo-de-jardin: false

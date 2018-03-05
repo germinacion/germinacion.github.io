@@ -3,17 +3,15 @@ layout: search
 ---
 {% include nav.html %}
 <div class="main-container">
-<div class="search-form mono-space offline-ready">
-<label>Buscar por nombre, uso, afección</label>
+<div class="search-form mono-space offline-ready" style="background: #2EB872 !important;">
+<label>Resultados</label>
   <form action="/buscar" method="get">
 	    <input type="text" id="search-box" class="search-box" name="query">
 	    <input class="ui button green search-action" type="submit" value="Buscar">
   </form>
 
 </div>
-
-<h2 style="text-align: center;">Resultados</h2>
-<ul id="search-results" class="search-results ui items" style="max-width: 900px;margin: 0 auto;">
+<ul id="search-results" class="search-results ui items" style="max-width: 900px;margin: 0 auto;padding: 2em 0;">
       
 </ul>
 

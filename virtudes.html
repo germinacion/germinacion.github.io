@@ -3,35 +3,28 @@ layout: default
 permalink: /virtudes/
 ---
 
-
-
-<header style="position: relative;">
-<a href="{{ site.baseurl }}/" class="logo">
-  <img src="{{ site.baseurl }}/img/logo-germinacion.svg" width="40px">
-  <small>Germinación del camino</small>
-</a>
-<nav class="primary-menu">
-  <a href="{{ site.baseurl }}/guia-de-plantas/" class="{% if page.url == 'guia-de-plantas'%} active {% endif %}">guía de plantas</a>
-  <a href="{{ site.baseurl }}/virtudes/" class="{% if page.url == 'virtudes'%} active {% endif %}">por virtudes</a>
-  <a href="{{ site.baseurl }}/quienes-somos/" class="{% if page.url == 'quienes-somos'%} active {% endif %}">quienes somos</a>
-</nav>
-</header>
+  <header style="position: relative;">
+    <a href="{{ site.baseurl }}/" class="logo">
+      <img src="{{ site.baseurl }}/img/logo-germinacion.svg" width="40px">
+      <small>Germinación del camino</small>
+    </a>
+    <nav class="primary-menu">
+      <a href="{{ site.baseurl }}/guia-de-plantas/" class="{% if page.url == 'guia-de-plantas'%} active {% endif %}">guía de plantas</a>
+      <a href="{{ site.baseurl }}/virtudes/" class="{% if page.url == 'virtudes'%} active {% endif %}">por virtudes</a>
+      <a href="{{ site.baseurl }}/quienes-somos/" class="{% if page.url == 'quienes-somos'%} active {% endif %}">quienes somos</a>
+    </nav>
+  </header>
 
 	<div class="search-form mono-space offline-ready">
 		<h1 style="color: #fff; text-align: center;">Guia de plantas según sus virtudes</h1>
-	 
   </div>
 
-     <div class="tag-cloud" style="max-width: 900px; margin: 0 auto; text-align: center;">
-    {% for category in site.tags %}
-       {% capture category_name %}{{ category | first }}{% endcapture %}
-       <a class="ui label big orange" href="#{{ category_name | slugify  }}" name="{{ category_name | slugize }}" style="
-       text-transform: capitalize; margin: 5px 3px ;
-  ">
-  {{ category_name }}
-      </a>
+  <div class="tag-cloud" style="max-width: 900px; margin: 0 auto; text-align: center;">
+    {% for virtudes in site.data.virtudes %}
+    <a class="ui label big orange" href="#{{ virtudes.virtudes | slugify  }}"" style="
+     text-transform: lowercase; margin: 5px 3px;">{{ virtudes.virtudes }}</a>
     {% endfor %}
-    </div>
+  </div>
 
   <div id="archive" class="archive guide" style="">
   	<div class="items" style="">
@@ -53,7 +46,7 @@ permalink: /virtudes/
           </div>
       {% endfor %}
     </div>
-    </div>
+  </div>
 
 
 
