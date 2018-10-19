@@ -2,7 +2,7 @@
 layout: null
 ---
 
-const staticCacheName = "germinacion-static-v6";
+const staticCacheName = "germinacion-static-v7";
 
 console.log("installing service worker");
 
